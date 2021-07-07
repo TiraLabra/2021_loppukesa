@@ -27,7 +27,7 @@ You can either come up with your own topic or pick one from the ones below. The 
 * How to compress a given file as efficiently as possible? A desired outcome would be at least a 40-60 % reduction in size. And the file has to be inflatable back to the original. How well can your implementation fare compared to existing solutions?
     * Compare two compression algorithms, e.g. Huffman vs Lempel Ziv
 
-## AI
+## Games
 
 * Chess, Go, expanded naughts and crosses and so on are fun and challenging games. Can you create an AI that can play against a human opponent as well as against itself? How good is it?
 
@@ -41,8 +41,12 @@ You can either come up with your own topic or pick one from the ones below. The 
 
 * [halite](https://halite.io/) AI. Or any other similar online AI challenge.
 
-## Computational creativity
+## Machine learning
+
+* Computational creativity
 Creativity can be implemented e.g. with genetic algorithms or Markov chains. A Markov chain is a stochastic process where each state depends only on the previous state or a fixed number of previous states. You can generate for example natural like words or sentences with them. Generated words can be used, in addition to a vocabulary, for breaking passwords. Some previous projects have been on Markov chains for composing music.
+
+* Eigenface face recognition. See https://en.wikipedia.org/wiki/Eigenface Prerequisites: at least Linear algebra 1+2. You are allowed to use any available libraries for matrix operations, if the basic method is developed a little to achieve adequate complexity. Discuss with a course assistant.
 
 ## Dungeon generator
 * A fairly popular topic is creating dungeons for games such as Rogue or NetHack. There exist several algorithms that can be implemented or you could just roll your own. Generation can be either entirely done before hand or be dynamic.
