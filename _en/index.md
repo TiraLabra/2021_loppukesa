@@ -54,7 +54,7 @@ Detailed course timing is available [here](timing/).
       document.write("Doodle link for demo session planning has been sent to registered students. The email address is the one configured in labtool.");
     }
    } else {
-    document.write("A poll will be sent out around the half way point of the course to schedule demo session(s).");
+    document.write("A poll will be sent out a couple on weeks before the end of the course to schedule demo sessions.");
    }
  </script>
 * The final submission deadline is on <script>document.write(enString(timing["end"].date));</script>. There are no time extensions available.
