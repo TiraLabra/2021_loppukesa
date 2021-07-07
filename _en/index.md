@@ -46,6 +46,8 @@ Detailed course timing is available [here](timing/).
 
 ## 📣 News
 
+* No starting lecture in English available this time. The course instructions in English are not completely up to date. The course has not changed significantly. However, you should also read the Finnish course pages. The instructor will help you also in English if needed, please contact by email or Telegram.
+
 * <script>
    if (doodleSent) {
     if (timing["demo"]) {
@@ -146,6 +148,8 @@ if (timing["paja1"]) {
 * Both of these still have a good project structure.
 
 ## 🏆 Conduct of the course
+
+
 Based on the number of credits (4) offered, the expected amount of work to complete the course should be approximately 107 hours. Plan to spend 15-20 hours on the course every week.
 
 In this course the student creates a program that solves some sort of a problem. For solving the problem the student will apply suitable data structures and algorithms. The problem to solve is selected by the student with the help of the course assistant. A passing (or even good) grade does not require developing an algorithm from scratch. A student may develop their own algorithm(s) if desired. The main point of the course is that the created program works correctly and efficiently. The size of the problem instances and required efficiency will depend on the topic, and will be decided with help from the course assistant. Some example topics can be found [here](topics/).
