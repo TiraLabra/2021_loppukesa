@@ -61,10 +61,10 @@ Tarkempi aikataulu [täällä](fi/aikataulu/).
       document.write("Doodle linkki demotilaisuuden aikatauluttamiseksi on lähetetty kurssille ilmoittautuneille opiskelijoille. Sähköposti on lähtenyt siihen osoitteseen mikä on labtooliin rekisteröity.")
     }
    } else {
-    document.write("Kysely demotilaisuuden aikatauluttamiseksi lähetetään kurssin puolivälin paikkeilla.")
+    document.write("Kysely demotilaisuuden aikatauluttamiseksi lähetetään pari viikkoa ennen kurssin päättymistä.")
    }
   </script>
-* Lopullinen palautus <script>document.write(fiString(timing["end"].date));</script>, tähän ei ole saatavilla lisäaikaa.
+* Lopullinen palautus <script>document.write(fiString(timing["end"].date));</script>.
 * Jos löydät kurssisivuilta jotain parannettavaa. Voit seurata [täältä](fi/bug_bounty) löytyviä ohjeita virheen korjaamisesksi. Hyvistä korjauksista on mahdollista saada yhden kurssipisteen "bug bounty" (max 1 per oppilas)
 
 ## Linkkejä materiaaliin
