@@ -7,11 +7,11 @@ tag: info
 permalink: /fi/aiheet/
 ---
 
-Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiintoinen aihe. Listalla olevat aiheet ovat vain ehdotuksia, niitä voi muokata ja kehittää - lopullinen aihe sovitaan yhdessä ohjaajan kanssa. Aiheita voi katsoa myös kurssin aiemman version [sivuilta](https://github.com/TiraLabra/2017-loppukesa/wiki/Aiheita).
+Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiintoinen aihe. Listalla olevat aiheet ovat vain ehdotuksia, niitä voi muokata ja kehittää - lopullinen aihe sovitaan yhdessä ohjaajan kanssa.
 
 ## Verkot ja polunetsintä
 
-* Miten löydetään tehokkaasti nopein/lyhin reitti labyrintistä ulos. Labyrintti voi olla tehty esimerksi ascii-merkeistä tai piirretty kuva. [Wikipedia, Maze solving algorithm](https://en.wikipedia.org/wiki/Maze_solving_algorithm)
+* Miten löydetään tehokkaasti nopein/lyhin reitti labyrintistä ulos. Labyrintti voi olla tehty esimerksi ascii-merkeistä tai piirretty kuva. [Wikipedia, Maze solving algorithm](https://en.wikipedia.org/wiki/Maze_solving_algorithm) 
 
 * Miten löydetään tehokkaasti nopein/lyhin reitti verkossa kahden pisteen välillä. Verkon pisteet voivat olla esimerkiksi katuosoitteita, joukkoliikenteen pysäkkejä tai koordinaatteja. Hyvä artikkeli aiheesta: http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
 
