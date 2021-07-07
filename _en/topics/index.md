@@ -29,7 +29,7 @@ You can either come up with your own topic or pick one from the ones below. The 
 
 ## Games
 
-* Chess, Go, expanded naughts and crosses and so on are fun and challenging games. Can you create an AI that can play against a human opponent as well as against itself? How good is it?
+* Chess, Go, expanded naughts and crosses (5-in-a-row, large board) and so on are fun and challenging games. Can you create an AI that can play against a human opponent as well as against itself? How good is it?
 
 * You can find a java template for a chess bot using [xboard](https://www.gnu.org/software/xboard/) and the [Lichess api](https://lichess.org/blog/WvDNticAAMu_mHKP/welcome-lichess-bots) from here: [https://github.com/TiraLabra/chess](https://github.com/TiraLabra/chess)
 
@@ -46,7 +46,7 @@ You can either come up with your own topic or pick one from the ones below. The 
 * Computational creativity
 Creativity can be implemented e.g. with genetic algorithms or Markov chains. A Markov chain is a stochastic process where each state depends only on the previous state or a fixed number of previous states. You can generate for example natural like words or sentences with them. Generated words can be used, in addition to a vocabulary, for breaking passwords. Some previous projects have been on Markov chains for composing music.
 
-* Eigenface face recognition. See https://en.wikipedia.org/wiki/Eigenface Prerequisites: at least Linear algebra 1+2. You are allowed to use any available libraries for matrix operations, if the basic method is developed a little to achieve adequate complexity. Discuss with a course assistant.
+* Eigenface face recognition. See https://en.wikipedia.org/wiki/Eigenface Prerequisites: at least Linear algebra 1+2. You are allowed to use any available libraries for matrix operations, if the basic method is expanded to achieve adequate complexity. Discuss with a course assistant.
 
 ## Dungeon generator
 * A fairly popular topic is creating dungeons for games such as Rogue or NetHack. There exist several algorithms that can be implemented or you could just roll your own. Generation can be either entirely done before hand or be dynamic.
