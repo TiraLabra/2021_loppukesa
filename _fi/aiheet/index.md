@@ -29,7 +29,7 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
     * Sopiva laajuus on kahden pakkausalgoritmin vertailu, esim. Huffman vs Lempel Ziv.
 
 
-## Tekoälyt
+## Pelit
 
 * Shakki, go, laajennettu risti-nolla jne  ovat hauskoja ja haastavia pelejä. Niitä olisi kiva pelata tietokonetta vastaan, tehtävänäsi on kehittää valitsemallesi pelille tekoäly. Tekoälyn pitää pystyä pelaamaan niin ihmistä kuin itseään vastaan.
 
@@ -43,8 +43,12 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 * [halite](https://halite.io/) tekoäly. Tai muu internetistä löytyvä tekoälyhaaste.
 
-## Laskennallinen luovuus
+## Koneoppiminen
+
+* Laskennallinen luovuus
 Luovuutta voi toteuttaa esimerkiksi geneettisten algoritmien tai Markovin ketjujen avulla. Markovin ketju on prosessi, jossa kukin tila riippuu vain edellisestä tilasta, tai tässä tapauksessa yleensä jostain kiinteästä määrästä edellisiä tiloja. Näin voidaan tuottaa vaikka luonnollisen kaltaisia sanoja tai lauseita. Näin tuotettuja sanoja voi hyödyntää myös salasanan murtajassa valmiin sanaston lisäksi. Tällä kurssilla on tehty myös sävellyksiä käyttäen Markovin ketjuja.
+
+* Eigenface kasvontunnistus. Katso https://en.wikipedia.org/wiki/Eigenface Esitiedot: vähintään Lineaarialgebra ja matriisilaskenta 1+2. Perusmenetelmää voidaan laajentaa, jolloin voit käyttää matriisilaskentaan valmiita kirjastoja, sovi tarkemmasta aiheesta ohjaajan kanssa.
 
 ## Luolastogeneraattori
 * Suosituksi noussut aihe on esimerkiksi rogue-peleissä käytettävien luolien generointi. Tähän on tarjolla valmiita algoritmejä joita voi toteuttaa, mutta oma toteutus on myös täysin mahdollinen. Luolaston generointi voi joko olla etukäteen tapahtuva tai dynaamisesti pelin aikana kehittyvä pelaajan liikkumisen mukaan.
