@@ -6,7 +6,7 @@ tag: info
 permalink: /en/topics/
 ---
 
-You can either come up with your own topic or pick one from the ones below. The topics below are just examples, you can modify them if you want. The final topic will be decided with the help of, and approved by, the course assistant. Some more ideas may be found from older course [pages](https://github.com/TiraLabra/).
+You can either come up with your own topic or pick one from the ones below. The topics below are just examples, you can modify them if you want. The final topic will be decided with the help of, and approved by, the course assistant.
 
 ## Graphs and pathfinding
 
