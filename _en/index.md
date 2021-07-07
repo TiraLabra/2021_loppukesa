@@ -57,7 +57,7 @@ Detailed course timing is available [here](timing/).
     document.write("A poll will be sent out a couple on weeks before the end of the course to schedule demo sessions.");
    }
  </script>
-* The final submission deadline is on <script>document.write(enString(timing["end"].date));</script>. There are no time extensions available.
+* The final submission deadline is on <script>document.write(enString(timing["end"].date));</script>.
 * If you find something to fix/improve on the course pages, please submit a Pull Request with the fix ([instructions]( 	bug_bounty/)). A bug bounty of 1 course point will be awarded for significant fixes (capped at 1 per student).
 
 ## Links to course material
