@@ -53,6 +53,8 @@ Tarkempi aikataulu [täällä](fi/aikataulu/).
 
 ## 📣 Ajankohtaista
 
+* Kurssin ohjeistusta on muutettu siksi, että yhä useampi suorittaa projektin jollain muulla kielellä kuin Javalla, joka on vielä keväällä 2021 ollut useimpien käyttämä ohjelmointikieli. Ohjeisiin voi tulla pieniä tarkennuksia kurssin alkamiseen asti. Pahoittelen tätä, mutta Pythonin käytöstä kurssilla on saatu hyvin vähän kokemuksia ennen alkukesän kurssia.
+
 * <script>
    if (doodleSent) {
     if (timing["demo"]) {
