@@ -53,7 +53,7 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 * Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi. Esim. matriisilaskentaan ei kaikille ohjelmointikielille löydy valmiita kirjastoja.
 
-* Laskennallinen luovuus. Luovuutta voi toteuttaa esimerkiksi geneettisten algoritmien tai Markovin ketjujen avulla. Markovin ketju on prosessi, jossa kukin tila riippuu vain edellisestä tilasta, tai tässä tapauksessa yleensä jostain kiinteästä määrästä edellisiä tiloja. Näin voidaan tuottaa vaikka luonnollisen kaltaisia sanoja tai lauseita. Näin tuotettuja sanoja voi hyödyntää myös salasanan murtajassa valmiin sanaston lisäksi. Tällä kurssilla on tehty myös sävellyksiä käyttäen Markovin ketjuja.
+* Laskennallinen luovuus. Luovuutta voi toteuttaa esimerkiksi geneettisten algoritmien tai Markovin ketjujen avulla. Markovin ketju on prosessi, jossa kukin tila riippuu vain edellisestä tilasta, tai tässä tapauksessa yleensä jostain kiinteästä määrästä edellisiä tiloja. Näin voidaan tuottaa vaikka luonnollisen kaltaisia sanoja tai lauseita. Näin tuotettuja sanoja voi hyödyntää myös salasanan murtajassa valmiin sanaston lisäksi. Tällä kurssilla on tehty myös sävellyksiä käyttäen Markovin ketjuja. Toteuta itse Trie-tietorakenne sanojen / lauseiden / sävelkulkujen / sointusekvenssien tallettamiseen.
 
 * Eigenface kasvontunnistus. Katso [Eigenface](https://en.wikipedia.org/wiki/Eigenface) Esitiedot: vähintään Lineaarialgebra ja matriisilaskenta 1+2. Perusmenetelmää voidaan laajentaa, jolloin voit käyttää matriisilaskentaan valmiita kirjastoja, sovi tarkemmasta aiheesta ohjaajan kanssa.
 
