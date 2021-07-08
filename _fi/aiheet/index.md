@@ -15,7 +15,7 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 * Miten löydetään tehokkaasti nopein/lyhin reitti labyrintistä ulos. Labyrintti voi olla tehty esimerksi ascii-merkeistä tai piirretty kuva. [Wikipedia, Maze solving algorithm](https://en.wikipedia.org/wiki/Maze_solving_algorithm) 
 
-* Miten löydetään tehokkaasti nopein/lyhin reitti verkossa kahden pisteen välillä. Verkon pisteet voivat olla esimerkiksi katuosoitteita, joukkoliikenteen pysäkkejä tai koordinaatteja. Hyvä artikkeli aiheesta: http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+* Miten löydetään tehokkaasti nopein/lyhin reitti verkossa kahden pisteen välillä. Verkon pisteet voivat olla esimerkiksi katuosoitteita, joukkoliikenteen pysäkkejä tai koordinaatteja. Hyvä artikkeli aiheesta: [Reitinhakualgoritmien vertailu](http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html)
 
 * Vähintään kahden eri reitinhakualgoritmin vertailu, joista toinen poikkeaa riittävästi esitietoihin kuuluvista Tira-kurssilla opituista. Esim. JPS, IDA\*, fringe search (varsin vaativa). A* ei kelpaa, ellei projektissa ole muuta algoritmista vaativuutta riittävästi. Labyrinteissa on syytä käyttää niihin tarkoitettuja algoritmeja.
 
