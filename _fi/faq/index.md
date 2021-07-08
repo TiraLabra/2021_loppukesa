@@ -32,43 +32,24 @@ Esimerkiksi javan `List` sisältää paljon ominaisuuksia, mitä ei itse toteute
 
 Ei.
 
-## Saako javan funktionaalisia ominaisuuksia (stream) käyttää?
+## Saako ohjelmointikielen funktionaalisia ominaisuuksia (esim. Javan stream) käyttää?
 
-Ehkä. 
-
-Näiden käyttäminen tiralabran tyyppisessä projektissa on monesti epäkäytännöllistä näiden rakenteiden hitaudesta johtuen.
+Ehkä, riippuu kielestä. Näiden käyttäminen tiralabran tyyppisessä projektissa on monesti epäkäytännöllistä näiden rakenteiden hitaudesta johtuen.
 
 Nämä toki ovat sallittuja ainakin testeissä ja käyttöliittymäkoodissa.
 
-## Saako `String` luokan funktioita / metodeita käyttää?
+## Saako Javan tai muun kielen `String` luokan funktioita / metodeita käyttää?
 
-`lenght()` on oikeastaan pakko sallia.
+Saa.
 
-Muita sallittuja on ainakin `charAt()`, `toCharArray()`, `getBytes()`, `equals()`.
 
-Yleisesti korkeamman tason funktioita ei sallita, sillä ne piilottavat epätriviaalia toiminnallisuutta. Toki kannattaa kysyä jos on jotain epäselvää.
+## Saako Javan `Arrays` luokan funktioita / metodeita käyttää?
 
-Toki käyttöliittymäkoodissa myös `String` luokan kaikkea toiminnallisuutta saa (ja kannattaa) käyttää.
-
-## Onko `System.arraycopy` sallittu?
-
-Ks. alla.
-
-## Saako `Arrays` luokan funktioita / metodeita käyttää?
-
-Lähtökohtaisesti ei. Tosin esimerkiksi taulukon kopiointi käyttämättä `System.arraycopy` funktiota voi olla niin paljon hitaampaa että taulukon kopiointi muodostuu algoritmissa pullonkaulaksi mikä ei ole tarkoituksenmukaista. Tällöin kannattaa dokumentoida suorituskykyero ja käyttää valmista `arraycopy` funktiota projektissa.
-
-Sama voi päteä myös joillekin `Arrays` funktioille / metodeille?
-
-Järjestäminen standardikirjaston funktioilla ei ole sallittua, paitsi testi- ja käyttöliittymäkoodissa.
+Lähtökohtaisesti ei.
 
 ## Saako käyttää javan `Random` luokkaa?
 
-Ei oikeastaan. 
-
-Yksittäisiä satunnaislukuja on helppo generoida vaikka `System.nanoTime() % n` -komennolla. Ja vähän kehittyneempää tarvetta varten ei ole hirvittävän hankalaa toteuttaa esim. "[Mersenne twister](https://en.wikipedia.org/wiki/Mersenne_Twister)".
-
-Yleisesti javan random luokan jättämisesestä lopputoteutukseen ei todennäköisesti ihan hirvittävästi rankaista etenkin jos tämä on hyvin perusteltu dokumentaatiossa.
+Saa, ellei satunnaislukujen generoiminen ole osa itse projektia.
 
 ## Saako käyttää valmiita matemaattisia funktioita?
 
@@ -91,17 +72,6 @@ Kannattaa keskustella ohjaajan kanssa.
 Matalan tason kielissä testaaminen ja testikattavuuden seuraaminen voi olla hankalaa. Ei suositella ellei ole hyvin perehtynyt kyseiseen kieleen ja valmis selvittämään miten kattavuudet saa esim. Codecoviin.
 
 Koodikatselmointien kanssa voi tulla ongelmia. Voit joutua arvioimaan jollain itsellesi tuntemattomalla kielellä kirjoitettua koodia, vastaavasti saamasi palaute voi olla vähemmän hyödyllistä, jos sen laatija ei osaa käyttämääsi kieltä.
-
-Puhu joka tapauksessa ohjaajan kanssa *ennen ekaa palautusta*!
-
-## Voiko kieleksi valita Pythonin?
-
-Tämä voi olla jopa suositeltavaa jos aihe on todella hankala. Esimerkiksi neuroverkkoja toteuttaessa on usein hyvä idea käyttää (numpyn) valmiita matriisilaskentakirjastoja jopa loppupalautuksessa. Pythonin valmiita `list`/`set`/`dict` toteutuksia ei yleensä kannata lähteä korvaamaan, joten projektissa täytyy olla riittävästi sisältöä jopa jos nämä ovat annettu.
-
-Joka tapauksessa tätä ei suositella ellei python ole entuudestaan hyvin tuttu (myös testaamisen ja testikattavuuksien generoinnin osalta).
-
-Suurin osa käyttää Javaa, joten voit joutua arvioimaan jollain itsellesi tuntemattomalla kielellä kirjoitettua koodia, vastaavasti saamasi palaute voi olla vähemmän hyödyllistä, jos sen laatija ei osaa käyttämääsi kieltä. Tuskin ainakaan saat arvioitavaksi projektia, joka on samaa aihepiiriä kuin omasi.
-
 
 Puhu joka tapauksessa ohjaajan kanssa *ennen ekaa palautusta*!
 
