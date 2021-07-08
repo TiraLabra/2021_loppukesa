@@ -33,6 +33,10 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 ## Pelit
 
+* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi.
+
+* Vuoropohjaisia kahden pelaajan pelejä pelataan usein minimax-algoritmilla, jota on tehostettu alpha-beta-karsinnalla. Yleensä ei ole mahdollista tutkia kaikkia siirtovaihtoehtoja siihen asti, että jompi kumpi voittaa. Silloin täytyy erilaisia pelitilanteita laittaa muuten arvojärjestykseen. Edellä mainittu on sopiva laajuus peliprojektille. Kaikkiin alla mainittuihin peleihin ei tällainen lähestymistapa kuitenkaan toimi.
+
 * Shakki, go, risti-nolla (laajalla ruudukolla, 5:n rivi) jne. ovat hauskoja ja haastavia pelejä. Niitä olisi kiva pelata tietokonetta vastaan, tehtävänäsi on kehittää valitsemallesi pelille tekoäly. Tekoälyn pitää pystyä pelaamaan ihmistä vastaan, ehkä myös itseään vastaan. 
 
 * [xboard](https://www.gnu.org/software/xboard/) ja [lichess](https://lichess.org/blog/WvDNticAAMu_mHKP/welcome-lichess-bots) alustoja hyödyntävä java-projektipohja shakkitekoälylle on tehty ohtu-projektina, ja se löytyy täältä: [https://github.com/TiraLabra/chess](https://github.com/TiraLabra/chess) Jos käytät valmista pohjaa, kerro koodin kommenteissa selvästi mikä on omaa koodiasi, ja mikä on pohjaa. Älä muokkaa pohjaa, vaan kirjoita oma koodisi omaan luokkaansa / metodiinsa.
@@ -46,6 +50,8 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 * [halite](https://halite.io/) tekoäly. Tai muu internetistä löytyvä tekoälyhaaste.
 
 ## Koneoppiminen
+
+* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi. Esim. matriisilaskentaan ei kaikille ohjelmointikielille löydy valmiita kirjastoja.
 
 * Laskennallinen luovuus. Luovuutta voi toteuttaa esimerkiksi geneettisten algoritmien tai Markovin ketjujen avulla. Markovin ketju on prosessi, jossa kukin tila riippuu vain edellisestä tilasta, tai tässä tapauksessa yleensä jostain kiinteästä määrästä edellisiä tiloja. Näin voidaan tuottaa vaikka luonnollisen kaltaisia sanoja tai lauseita. Näin tuotettuja sanoja voi hyödyntää myös salasanan murtajassa valmiin sanaston lisäksi. Tällä kurssilla on tehty myös sävellyksiä käyttäen Markovin ketjuja.
 
