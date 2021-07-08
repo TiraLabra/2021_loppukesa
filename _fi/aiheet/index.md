@@ -68,7 +68,7 @@ Tietorakenteita on monenlaisia, mikä olisi paras kuhunkin ongelmaan? Vertaile n
 ## Salaus ja Tietoturva
 * Tietoturva on tänä päivänä tärkeämpää kuin koskaan monien toimintojemme siirryttyä verkkoon. Salausta voi tehdä monilla eri tavoin ja moniin käyttötarkoituksiin, oheinen sivusta tarjoaa paljon kokeiltavaa aiheesta: http://rumkin.com/tools/cipher/index.php
 
-* Salauksia ja tiivistyksiä voi myös purkaa. Ylläolevan linkin kautta löydät paljon ideoita - voit myös ryhtyä tutkimaan esimerkiksi merkkien frekvenssejä ja analysoida sitä kautta salattua tiedostoa. Vaihtosalaukseen perustuvan salakirjoituksen saa murrettua sanaston avulla, jos teksti on riittävän pitkä, ja tiedetään mitä kieltä se on. Tämä liittyy läheisesti myös Huffmann-tiivistettyyn dataan: http://rumkin.com/tools/cipher/frequency.php
+* Salauksia ja tiivistyksiä voi myös purkaa. Ylläolevan linkin kautta löydät paljon ideoita - voit myös ryhtyä tutkimaan esimerkiksi merkkien frekvenssejä ja analysoida sitä kautta salattua tiedostoa. Vaihtosalaukseen perustuvan salakirjoituksen saa murrettua sanaston avulla, jos teksti on riittävän pitkä, ja tiedetään mitä kieltä se on. Tämä liittyy läheisesti myös Huffmann-tiivistettyyn dataan: (http://rumkin.com/tools/cipher/frequency.php)
 
 
 ## Signaalinkäsittely (kuva, ääni)
@@ -77,6 +77,6 @@ Toteuta yksi (tai useampi, riippuen vaativuudesta) signaalinkäsittelyalgoritmi 
 ### Muuta kivaa
 * Rahtifirma NopsaToimitus haluaa optimoida konttikuljetuksissa käytettävän tilan. Suunnittele miten voidaan täyttää yksi tai useampi kontti mahdollisimman tehokkaasti, jos tiedetään pakettien määrä ja koot. Ideaa voi hakea kuutiopalapelin ratkaisijasta.
 
-* Suunnittele säännöllisten lauseiden tulkki. Miksi? Loistava vastaus: https://web.archive.org/web/20181227172507/https://blog.stevenlevithan.com/archives/10-reasons-to-learn-and-use-regular-expressions
+* Suunnittele säännöllisten lauseiden tulkki. Miksi? Loistava vastaus: (https://web.archive.org/web/20181227172507/https://blog.stevenlevithan.com/archives/10-reasons-to-learn-and-use-regular-expressions)
 
-* Kirjoitusvirheiden korjaaja. Merkkijonojen etäisyysmittojen avulla voi selvittää mikä oikea sana todennäköisimmin on, kun tiedetään millaisia virheitä ihmiset tyypillisesti tekevät kirjoittaessaan. Tällä pääsee alkuun: https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance
+* Kirjoitusvirheiden korjaaja. Merkkijonojen etäisyysmittojen avulla voi selvittää mikä oikea sana todennäköisimmin on, kun tiedetään millaisia virheitä ihmiset tyypillisesti tekevät kirjoittaessaan. Tällä pääsee alkuun: (https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
