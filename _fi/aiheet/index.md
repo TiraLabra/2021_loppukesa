@@ -35,7 +35,7 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 * Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi.
 
-* Vuoropohjaisia kahden pelaajan pelejä pelataan usein [minimax-algoritmilla](https://en.wikipedia.org/wiki/Minimax), jota on tehostettu [alpha-beta-karsinnalla](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). Yleensä ei ole mahdollista tutkia kaikkia siirtovaihtoehtoja siihen asti, että jompi kumpi voittaa. Silloin täytyy erilaisia pelitilanteita laittaa muuten arvojärjestykseen. Edellä mainittu on sopiva laajuus peliprojektille. Kaikkiin alla mainittuihin peleihin ei tällainen lähestymistapa kuitenkaan toimi.
+* Vuoropohjaisia kahden pelaajan pelejä pelataan usein [minimax-algoritmilla](https://en.wikipedia.org/wiki/Minimax), jota on tehostettu [alpha-beta-karsinnalla](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). Yleensä ei ole mahdollista tutkia kaikkia siirtovaihtoehtoja siihen asti, että jompi kumpi voittaa. Silloin täytyy erilaisia pelitilanteita laittaa arvojärjestykseen myös muilla perusteilla. Tällainen on sopiva laajuus peliprojektille. Kaikkiin alla mainittuihin peleihin ei tämä lähestymistapa kuitenkaan toimi.
 
 * Shakki, go, risti-nolla (laajalla ruudukolla, 5:n rivi) jne. ovat hauskoja ja haastavia pelejä. Niitä olisi kiva pelata tietokonetta vastaan, tehtävänäsi on kehittää valitsemallesi pelille tekoäly. Tekoälyn pitää pystyä pelaamaan ihmistä vastaan, ehkä myös itseään vastaan. 
 
@@ -51,7 +51,7 @@ Aiheen voi keksiä itse, tai valita alla olevasta listasta itselleen mielenkiint
 
 ## Koneoppiminen
 
-* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi. Esim. matriisilaskentaan ei kaikille ohjelmointikielille löydy valmiita kirjastoja.
+* Aihe sopii lähes millä tahansa ohjelmointikielellä toteutettavaksi. Esim. matriisilaskentaan ei kaikille ohjelmointikielille kuitenkaan löydy valmiita kirjastoja.
 
 * Laskennallinen luovuus. Luovuutta voi toteuttaa esimerkiksi geneettisten algoritmien tai Markovin ketjujen avulla. Markovin ketju on prosessi, jossa kukin tila riippuu vain edellisestä tilasta, tai tässä tapauksessa yleensä jostain kiinteästä määrästä edellisiä tiloja. Näin voidaan tuottaa vaikka luonnollisen kaltaisia sanoja tai lauseita. Näin tuotettuja sanoja voi hyödyntää myös salasanan murtajassa valmiin sanaston lisäksi. Tällä kurssilla on tehty myös sävellyksiä käyttäen Markovin ketjuja. Toteuta itse Trie-tietorakenne sanojen / lauseiden / sävelkulkujen / sointusekvenssien tallettamiseen.
 
