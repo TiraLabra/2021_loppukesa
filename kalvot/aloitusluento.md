@@ -1,6 +1,6 @@
 % Aineopintojen harjoitustyö: Tietorakenteet ja algoritmit (Tiralabra)
 % Hannu Kärnä
-% 10.5.2021
+% 19.7.2021
 
 # Ohjaajat
 
@@ -13,40 +13,36 @@
 
 # Mistä kyse?
 
-- Kurssilla toteutetaan itse jokin "hankalaa" algoritmia/algoritmejä käyttävä ohjelma ja kaikki ohjelman käyttämät tietorakenteet. Esitietoihin kuuluvalla Tira-kurssilla opitut asiat eivät täytä tätä määritelmää. Esim. täysin brute force sudoku-ratkaisija ei käy aiheeksi, se on joskus ollut tehtävänä jo Ohjelmoinnin jatkokurssilla.
+- Kurssilla toteutetaan itse jokin "hankalaa" algoritmia/algoritmeja käyttävä ohjelma ja joissain tapauksissa myös ohjelman käyttämät tietorakenteet. Esitietoihin kuuluvalla Tira-kurssilla opitut asiat eivät täytä tätä määritelmää. Esim. täysin brute force sudoku-ratkaisija ei sovellu aiheeksi, se on joskus ollut tehtävänä jo Ohjelmoinnin jatkokurssilla.
 
 # Esitietovaatimukset
 
 - Esitietoja:
     - **TiRA**
-        - Pakollinen
+        - Pakollinen.
     - **OT**
-        - Todella hyödyllinen mutta kurssimateriaalesta löytyy tarvittavat tiedot testaamisen tekemiseen ja vähän esimerkkejä projektirakenteista
-- Tule juttelemaan, jos:
-    - Olet käynyt kurssit, mutta olet esimerkiksi ollut poissa tentin aikana
-    - Mikä tahansa muu puute esitietovaatimuksiin liittyen
+        - Todella hyödyllinen, mutta kurssimateriaalesta löytyy tarvittavat tiedot testaamisen tekemiseen ja vähän esimerkkejä projektirakenteista.
+- Ota yhteyttä, jos et ole varma riittävätkö esitietosi kurssin sujuvaan suorittamiseen. Kurssi on liian työläs, jos joudut samalla kertaamaan asioita, jotka tarvitaan työn pohjaksi.
 
 # Kurssin sisältö
 
-- Toteutuskieli ohjaajan hyväksyttävä. Ainakin Java käy.
-    - Tule juttelemaan jollet halua kirjoitaa javalla.
-    - Ota huomioon että vaaditaan testaus ja jonkinlainen testikattavuusraportointi
+- Toteutuskieli ohjaajan hyväksyttävä. Ainakin Java ja Python kelpaavat.
+    - Ota huomioon, että vaaditaan automaattinen yksikkötestaus ja jonkinlainen testikattavuusraportointi.
 - Käytössä **Git**-versionhallinta sekä **GitHub**
-- Harjoitustyö on **yksilötyö**
-- Tuloksena yleensä **suoritettava ohjelma**
-    - Ei pelkkä kirjasto tai muu suorittamattomissa oleva läjä koodia
-- Ohjelmalla yleensä oltava **käyttöliittymä**
+- Harjoitustyö on **yksilötyö**.
+- Tuloksena **suoritettava ohjelma**, ei pelkkä kirjasto tms.
+- Ohjelmalla oltava **käyttöliittymä**.
 
 # Kurssin sisältö
 
 - Esimerkkiaiheita:
-    - Reitinhakualgoritmien vertaus
-    - Pakkausalgoritmit
+    - Reitinhakualgoritmien vertailu
+    - Pakkausalgoritmien vertailu
     - Laskennallinen luovuus: musiikkia, tekstiä
     - Krypto
     - Peliratkaisijat (miinaharava, nonogrammi, pasianssit...)
         - Ks. miinaharavatemplaatti gitistä!
-    - Tekoälyt (Shakki, go...)
+    - Pelit
         - Ks. shakkitemplaatti gitistä! 
 - **Valitse ennen kaikkea jokin itseäsi kiinnostava aihe!**
 
@@ -61,7 +57,7 @@
 # Kurssin kulku
 
 - **Deadlinet** kurssisivun aikataulun mukaan.
-    - Deadlinestä annetaan 0-2 pistettä kunkin deadlinen tehtävien mukaisesti
+    - Deadlinestä annetaan 0-4 pistettä kunkin deadlinen tehtävien mukaisesti
     - Palautukset tehdään *pushaamalla* projektin kunkin hetkinen tilanne GitHubiin
         - Ei sähköpostipalautuksia
     - Suuri osa pisteistä -- ja siten arvosanasta -- tulevat deadlinejen ja koodikatselmusten perusteella
