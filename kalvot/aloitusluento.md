@@ -9,7 +9,7 @@
 - Yhteyttä sähköpostilla tai telegrammissa kurssikanavalla
 
 - Telegram-kanava https://t.me/tkttiralabra/
-- Kurssisivu https://tiralabra.github.io/2021_alkukesa/
+- Kurssisivu https://tiralabra.github.io/2021_loppukesa/
 
 # Mistä kyse?
 
@@ -40,16 +40,16 @@
     - Pakkausalgoritmien vertailu
     - Laskennallinen luovuus: musiikkia, tekstiä
     - Krypto
-    - Peliratkaisijat (miinaharava, nonogrammi, pasianssit...)
+    - Ratkaisijat (miinaharava, nonogrammi, 15-peli, pasianssit...)
         - Ks. miinaharavatemplaatti gitistä!
-    - Pelit
+    - Pelit (ristinolla, shakki, korttipelit, lautapelit)
         - Ks. shakkitemplaatti gitistä! 
 - **Valitse ennen kaikkea jokin itseäsi kiinnostava aihe!**
 
 # Koodaustyyli
 
 - Kurssilla edellytetään että kirjoitettu koodi on laadukasta ja helppolukuista. Kannattaa käyttää tyylitarkastusta. Esim java checkstyle.
-- Projektin nimen olisi syytä olla kuvaava. Ohjaajalta menee hermo jos kaikkien projektien nimet ovat taas variaatioita nimestä "Tiralabra-2021".
+- Projektin nimen olisi syytä olla aihetta kuvaava.
 - Sovelletaan OT kurssilla opittuja projektirakenteita.
     - Ei kaikki koodi projektin juureen samaan tiedostoon.
 - Sovelletaan myös muita hyvän koodaustyylin perjaatteita kuten DRY ja Single responsibility.
