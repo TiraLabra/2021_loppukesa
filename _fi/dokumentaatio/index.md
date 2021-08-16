@@ -16,7 +16,7 @@ Huomaa että jokaisen dokumentin pituus on n. 1-2 A4, poislukien kuvat ja tauluk
 
 
 #### Määrittelydokumentti
-* Mitä ohjelmointikieltä käytät? Kerro myös mitä muita kieliä hallitset siinä määrin, että pystyt tarvittaessa vertaisarvioimaan niilä tehtyjä projekteja.
+* Mitä ohjelmointikieltä käytät? Kerro myös mitä muita kieliä hallitset siinä määrin, että pystyt tarvittaessa vertaisarvioimaan niillä tehtyjä projekteja.
 * Mitä algoritmeja ja tietorakenteita toteutat työssäsi?
 * Mitä ongelmaa ratkaiset ja miksi valitsit kyseiset algoritmit/tietorakenteet?
 * Mitä syötteitä ohjelma saa ja miten näitä käytetään?
